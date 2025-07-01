@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="https://img.freepik.com/premium-vector/art-gallery-logo-design_92167-616.jpg?semt=ais_hybrid" alt="Gallery Logo" class="logo">
+        <h1 id="gallery-title">Art Gallery</h1> 
+        <select id="language-selector" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+        </select>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search for artists or artwork...">
+           
+        </div>
+         
+    </header>
+    
+    <!-- Gallery Section -->
+    <section class="gallery hidden">
+        <div class="gallery-item">
+            <a href="photo1.php">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeeV2u9NP1C-xWVMoDSsxAWkXn6_SOxShGXqWahHGDNG8qgDhP" alt="Photo 1">
+                <div class="caption">Vincent van Gogh</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="photo2.php">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkF4N6XdzqvCXxorHI4RuLvdcsJekY_ajotqLvVOjDTIN6PLb6" alt="Photo 2">
+                <div class="caption">leonardo da vinci</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="photo3.php">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/800px-Pablo_picasso_1.jpg" alt="Photo 2">
+                <div class="caption">pablo picasso</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="photo4.php">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyVT3oGY0Av5bQCqBE5TzI74o427abnmDB4O4bOwVZVgqsbH-d" alt="Photo 2">
+                <div class="caption">Edvard Munch</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank" class="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="24" height="24">
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="24" height="24">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="24" height="24">
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/3046/3046122.png" alt="TikTok" width="24" height="24">
+            </a>
+        </div>
+        <div class="footer-links">
+            <a href="contact.html">Contact Us</a> | <a href="about.html">About</a> | <a href="login.php">Login</a>
+        </div>
+        <p>MADE BY ZOZ, H, BO7MED, NADA ©</p>
+        
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
