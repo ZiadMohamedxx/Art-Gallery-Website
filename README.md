@@ -1,1 +1,22 @@
-Developed a fully functional Art Gallery website using HTML, CSS, JavaScript, and PHP, featuring a comprehensive database system built with phpMyAdmin for user authentication (sign-up & sign-in) and painting stock management. Integrated a checkout system supporting multiple payment methods, including Apple Pay, Visa, and Cash on Delivery (COD) for a seamless transaction experience. The website also includes a contact page, where users can submit inquiries and receive automated confirmation emails via PHP Mailer. Built and tested on a WAMP server, ensuring smooth local hosting and database efficiency. Designed for usability, security, and responsiveness, providing a seamless e-commerce experience for art enthusiasts.
+# Art Gallery Website
+
+A complete online art gallery built using HTML, CSS, JavaScript, PHP, and MySQL. The system allows users to view artworks, and administrators to manage art pieces, artists, and sales.
+
+## Features
+- Browse and search paintings
+- Artist profile pages
+- Admin login with full control
+- Add, update, and delete artwork
+- Responsive design
+- Integrated Apple Pay, Visa, and Cash on Delivery
+
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Backend**: PHP (OOP), MySQL
+- **Payment**: Apple Pay, COD, Visa
+
+## Authors
+- Ziad Mohamed  
+- Nada (Teammate)
+- Ahmed (Teammate)
+- Mohamed (Teammate)
